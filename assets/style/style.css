@@ -9,9 +9,10 @@ body {
 }
 main {
   display: flex;
-  width: 80%;
+  width: 99%;
   padding: 50px 20px;
   background-color: #fafaf9;
+  border-radius: 20px;
 }
 .section-left,
 .section-right {

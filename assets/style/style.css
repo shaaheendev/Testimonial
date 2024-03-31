@@ -74,3 +74,15 @@ li img {
   border-radius: 50%;
   text-align: center;
 }
+
+@media (max-width: 500px) {
+  main {
+    flex-direction: column;
+    padding: 10px 10px;
+    height: auto;
+  }
+  .section-left,
+  .section-right {
+    width: 98%;
+  }
+}
